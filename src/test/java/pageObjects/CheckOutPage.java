@@ -15,9 +15,6 @@ public class CheckOutPage {
 
 	
 	By productName=By.cssSelector("p.product-name");
-	
-	
-	
 
 	
 	

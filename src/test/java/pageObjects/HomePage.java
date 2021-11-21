@@ -28,7 +28,9 @@ public class HomePage {
 
 	public WebElement getSearch()
 	{
+		System.out.println("Searched");
 		return driver.findElement(search);
+		
 	}
 	
 	public WebElement getProductName()
