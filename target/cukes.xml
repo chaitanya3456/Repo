@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.644351">
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page" time="0.628698">
+        <failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Users\rahul\chromedriver.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:25)&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)&#13;&#10;&#9;at ✽.Given User is on Greencart Landing page(search.feature:12)&#13;&#10;">
+            <![CDATA[Given User is on Greencart Landing page.....................................failed
+When User searched for Brinjal Vegetable....................................skipped
+And Added items to cart.....................................................skipped
+And User proceeded to Checkout page for purchase............................skipped
+Then verify selected Brinjal items are displayed in Check out page..........skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\rahul\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Cucumber.Automation.Base.getDriver(Base.java:25)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)
+	at ✽.Given User is on Greencart Landing page(search.feature:12)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page 2" time="0.015653">
+        <failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Users\rahul\chromedriver.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:25)&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)&#13;&#10;&#9;at ✽.Given User is on Greencart Landing page(search.feature:12)&#13;&#10;">
+            <![CDATA[Given User is on Greencart Landing page.....................................failed
+When User searched for Beetroot Vegetable...................................skipped
+And Added items to cart.....................................................skipped
+And User proceeded to Checkout page for purchase............................skipped
+Then verify selected Beetroot items are displayed in Check out page.........skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\rahul\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Cucumber.Automation.Base.getDriver(Base.java:25)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)
+	at ✽.Given User is on Greencart Landing page(search.feature:12)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
